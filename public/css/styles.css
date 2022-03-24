@@ -1,0 +1,65 @@
+.col-7 {
+    background-color: green;
+}
+
+.col-4 {
+    background-color: blue;
+}
+
+#curved_arrow {
+width: 100px;
+height: 100px;
+transform: rotate(45deg);
+
+}
+
+#logo {
+    width: 65px;
+    height: 65px; 
+}
+
+hr {
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    color: red;
+  }
+
+
+.carousel-indicators [data-bs-target] {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    border: 0.1rem solid gray;
+    
+  }
+
+  .carousel-indicators .active {
+      background-color: orange;
+  }
+
+  /* .carousel-indicators {
+    bottom: -3rem;
+} */
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    border: solid 0.1rem rebeccapurple;
+    border-radius: 50%;
+   
+}
+
+.carousel {
+    padding: 0 5rem 3rem 5rem;
+}
+
+#aleatory_receipt {
+    display: flex;
+}
+
+#aleatory_img {
+    width: 30rem;
+    height: 18rem;
+}
